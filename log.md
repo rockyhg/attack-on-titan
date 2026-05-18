@@ -437,3 +437,16 @@
   - アニ・マルコ両 synthesis の「同じ ch018 内に配置された伏線」としての**接続可能性**を仮説段階で記録（断定はせず、観察対象として継続追跡）
   - ジャンの調査兵団入り決意は、ch003の憲兵団志望からの大転換として characters/ジャン・キルシュタイン の考察に「動機軸=抽象→具体→現実の三段の弧」「マルコの遺言が物語を駆動」として整理
   - エレンの調査兵団入り承認は、ch009.5→ch014→ch018 の三段階で進んできた「同じ意志を持つ二人」（エレンとリヴァイ）の関係性が**組織的師弟関係として制度化**された転換点として characters/リヴァイ の考察に整理
+
+## [2026-05-19] lint | 整合性チェック（112ページ対象）
+- 自動修正: 関係性の片方向 5件
+  - characters/エレン・イェーガー frontmatter に [[characters/ライナー・ブラウン]]（ch016以降の片方向）を追加
+  - characters/エレン・イェーガー frontmatter に [[characters/アニ・レオンハート]]（ch017以降の片方向）を追加
+  - characters/エレン・イェーガー frontmatter に [[characters/マルコ・ボット]]（ch018追加分の片方向）を追加
+  - characters/ライナー・ブラウン frontmatter に [[characters/アニ・レオンハート]]（ch017-018分、本文関係性セクションにはあり）を追加
+  - characters/ライナー・ブラウン frontmatter に [[characters/アルミン・アルレルト]]（ch018分、本文関係性セクションにはあり）を追加
+- 確認済（問題なし）: リンク切れ・Orphan・空ページ・Timeline抜け・Index同期・フロントマター不備・未作成ページ候補・spoiler_scope不整合（サンプル検査範囲）
+- 推奨のみ（今回見送り）:
+  - Wikilink プレフィックス混在（`[[wiki/characters/...]]` と `[[characters/...]]`）の統一は別タスクで対応
+  - エレン.md の related_characters が10名に増加し視認性低下のトレードオフを認識（記述としては妥当）
+- 統計: 総ページ数 112（wiki 93 + summaries 19）、Characters 36 / Locations 15 / Items 21 / Factions 7 / Events 5 / Synthesis 8 / Themes 1、Ingest進捗 ch018+ch009.5 / ch139
